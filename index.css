@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colors {
+    width: 340px;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+    background: rgb(226, 215, 215);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: red;
+    margin-top: 14px;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    background: yellow;
+}
+
+.four {
+    background: gray;
+}
+
+.box {
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+    background: red;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.active {
+    opacity: 1;
+}
